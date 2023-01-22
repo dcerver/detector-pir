@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="AW@z;MY/D;%ce7)xYz56" x="0" y="0"><statement name="HANDLER"><block type="ESP8266_IoT_initWIFI" id="a6kG/cER$BUn-P0D0+%6"><field name="tx">SerialPin.P8</field><field name="rx">SerialPin.P12</field><field name="baudrate">BaudRate.BaudRate115200</field></block></statement></block><block type="device_forever" id="fRF=Yec|B#9sNenu.QTC" x="3" y="169"><statement name="HANDLER"><block type="controls_if" id="nDz569Tm:vc1FMlL,3e`"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="PIR" id="MW?s#!yNy!$PZ{/w:EV3"><field name="pin">DigitalPin.P13</field></block></value><statement name="DO0"><block type="device_show_leds" id="l2[i,9NW|DtbsTht-ZH)"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="d~H|{~+Cp`Nh@Os*[_yl"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement></block></statement></block></xml>
